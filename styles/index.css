@@ -8,3 +8,15 @@
     border-bottom: 2px solid #124E66;
     color: rgba(255, 255, 255, 0.432) !important;
 }
+
+.hero-section {
+    height: 90vh;
+    background-size: cover; 
+    background-position: center; 
+  }
+
+.content img {
+    width: 105%;
+    height: 105%;
+}
+  
