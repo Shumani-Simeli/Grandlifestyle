@@ -13,26 +13,38 @@ body {
 }
 
 .hero-section {
-    height: 90vh;
+    height: 60vh;
     background-size: cover; 
     background-position: center; 
 }
-
-.content img {
-    width: 105%;
-    height: 105%;
+.button {
+    display: block;
+    width: 20vh;
+    border: 1px solid #124E66;
+    padding: 10px;
+    text-align: center;
+    color: #124E66;
+    font-weight: bold;
+    text-decoration: none;
 }
-
+.carousel-item {
+    width: 100vh;
+    height: 100vh;
+}
 .menu img,
-.post img
+.post img,
+.carousel-item img
  {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
-
-.form-control{
+.form-control {
     background-color: #fafafa75 !important;
     border-radius: 0 !important;
+}
+
+.social {
+    color: #124E66;
 }
