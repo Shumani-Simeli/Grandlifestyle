@@ -12,7 +12,7 @@ body {
     color: rgba(255, 255, 255, 0.432) !important;
 }
 
-.hero-section {
+.heros {
     height: 90vh;
     background-size: cover; 
     background-position: center; 
@@ -35,4 +35,21 @@ body {
 .form-control{
     background-color: #fafafa75 !important;
     border-radius: 0 !important;
+}
+
+.reservation-button {
+    width: 75%;
+}
+
+@media (min-width: 768px) {
+    .reservation-button {
+        width: 25% !important;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .reservation-form {
+        width: 50% !important;
+    }
 }
